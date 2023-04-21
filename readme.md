@@ -64,6 +64,13 @@ export MACHINE="ubuntu" && export STELLOPT_PATH=/home/gzk/STELLOPT
 
 ./build_all
 
+提示-fallow-argument-mismatch不能识别，估计该字段应该
+出现在$(STELLOPT_PATH)/SHARE/make_ubuntu.inc文件中，
+(gfortran: error: unrecognized command line option ‘-fallow-argument-mismatch’; did you mean ‘-Wno-argument-mismatch’?)
+
+找到，根据提示，都把它们替换为-Wno-argument-mismatch，或者去掉‘-fallow-argument-mismatch’。
+
+gcc version 11.3.0 可以支持 ‘-fallow-argument-mismatch’。
 
 
 ========================================================================================
