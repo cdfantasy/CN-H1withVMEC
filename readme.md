@@ -55,7 +55,7 @@ Pingwei Zheng ，Gao zhengkun ，Heyi
 
   sudo apt-get install make
 
-git clone https://github.com/PrincetonUniversity/STELLOPT
+git clone https://github.com/cdfantasy/STELLOPT.git
 
 cd STELLOPT
 
