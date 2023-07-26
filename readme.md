@@ -62,7 +62,7 @@ cd STELLOPT
 export MACHINE="ubuntu" && export STELLOPT_PATH=/home/gzk/STELLOPT
 （#export STELLOPT_PATH=<path to repo directory）
 
-./build_all
+./build_all -j 4    #number of Processor
 
 提示-fallow-argument-mismatch不能识别，估计该字段应该
 出现在$(STELLOPT_PATH)/SHARE/make_ubuntu.inc文件中，
