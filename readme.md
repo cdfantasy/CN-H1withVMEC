@@ -16,6 +16,8 @@ Pingwei Zheng ，Gao zhengkun ，Heyi
 
 2) 
 1. Verify that your version of Ubuntu is up to date. 2. Use apt-get to install your packages.
+  sudo apt-get update
+  sudo apt-get upgrade
 
   sudo apt-get install git
 
